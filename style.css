@@ -1,0 +1,428 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn{
+    transition: 1s;
+}
+
+.center{
+    display: flex;
+    max-width: 1100px;
+    padding:0 2%;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+
+section.main{
+    background-image: url('images/bg.svg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding:20px 0 80px 0;
+}
+
+.menu{display: flex;width:100%;}
+
+.logo-menu{width:50%;}
+
+.itens-menu{
+    width:50%;
+}
+.itens-menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.itens-menu li{
+    list-style-type: none;
+}
+
+.itens-menu a{
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+    margin:0 10px;
+}
+
+.itens-menu a:hover{
+    border-bottom:3px solid #FFDD33;
+}
+
+
+.itens-menu a.contact-btn{
+    background-color:#0F3FD3;
+    padding:10px 10px;
+    border-radius:10px;
+}
+.itens-menu a.contact-btn:hover{
+    border:0;
+}
+
+.mockup{display: block;width:100%;color:white;text-align:center;padding-top:100px;}
+
+.mockup h1{
+    font-size: 50px;
+}
+
+.mockup img{max-width: 100%;}
+
+section.marcas{
+    padding:100px 0;
+}
+
+section.marcas img{
+    width: calc(100% / 5);
+}
+
+section.porque-nos{
+    padding:40px 0;
+    background-color:  #FBFCFE;
+
+}
+
+section.porque-nos > .center > h2{
+    font-size: 64px;
+    text-align: center;
+    width:100%;
+    margin-bottom: 2%;
+}
+
+section.porque-nos > .center{
+    max-width: 1280px;
+}
+
+section.porque-nos > .center > p{
+    font-size: 14px;
+    color:#ccc;
+    text-align: center;
+    width:100%;
+}
+
+.diferenciais{
+    display: flex;
+    margin-top:50px;
+}
+
+.box-diferenciais{
+    box-shadow: 0px 20px 40px #2426721C;
+    width:31%;
+    margin-right: 2%;
+    padding:10px 20px;
+    border-radius:10px;
+}
+
+.box-diferenciais h3{
+    font-size: 28px;
+    color:black;
+    margin:20px 0;
+}
+
+.box-diferenciais p{
+    font-size: 13px;
+    color: #7E92AC;
+    margin-bottom: 20px;
+}
+
+section.cta{
+    background-image: url('images/banner-meio.svg');
+    background-size: cover;
+    background-position: center;
+    padding:20px 10px;
+    height: 250px;
+    min-height: 200px;
+    color:white;
+    text-align: center;
+}
+
+section.cta h2,
+section.cta h4{
+    font-weight: normal;
+    margin:10px 0;
+    margin-bottom: 2%;
+}
+
+section.cta h2{
+    font-size: 40px;
+}
+
+section.cta a{
+    display: inline-block;
+    margin-top: 2%;
+    padding:15px 30px;
+    border-radius:7px;
+    font-weight: bold;
+    font-size: 17px;
+    background: #FFDD33;
+    text-decoration: none;
+    color: #0F3FD3;
+}
+
+section.cta a:hover{
+    background: #b39a20;
+}
+
+section.beneficios{
+    padding:50px 0;
+}
+
+.lista-beneficios{
+    width:40%;
+    margin-top:30px;
+}
+
+.lista-beneficios a{
+    display: inline-block;
+    margin-left: 2%;
+    padding:15px 30px;
+    border-radius:7px;
+    font-weight: bold;
+    font-size: 17px;
+    background: #255AFF;
+    text-decoration: none;
+    color: white;
+}
+
+.lista-beneficios a:hover{
+    background: #1739a0;
+}
+
+.lista-beneficios h1{
+    color:black;
+    font-size: 40px;
+}
+
+.lista-beneficios p{
+    color: #7E92AC;
+   vertical-align: middle;
+   font-size: 14px;
+}
+
+.lista-beneficios span{
+    display: inline-block;
+    width: calc(100% - 70px);
+}
+
+.lista-beneficios img{
+    display: inline-block;
+    vertical-align: middle;
+    width:70px;
+}
+.img-beneficios{
+    width: 60%;
+}
+
+.img-beneficios img{max-width: 100%;}
+
+
+section.depoimentos{
+    background-color: #FBFCFE;
+    padding:40px 0;
+}
+
+section.depoimentos > h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-slider{
+    overflow:hidden;
+    padding:40px 0;   
+}
+
+.container-slider-single{
+    float: left;
+    background-color:white;
+    text-align: center;
+    padding:15px;
+    border-radius:10px;
+}
+
+.container-slider-single p{
+    margin:15px 0;
+    color:#7E92AC;
+    font-size: 14px;
+}
+
+.slick-slide {
+    margin-left:27px;
+
+  }
+
+  /* the parent */
+  .slick-list {
+    margin-left:-27px;
+   
+  }
+
+/****SLICK SLIDER****/
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+    transition: 1s;
+	background: #255AFF;
+	color: #255AFF;
+}
+
+.slick-slide:focus { outline: none; }
+
+.form{
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+}
+.form h1{
+    margin-bottom: 20px;
+}
+
+.form input[type=text],
+.form input[type=email]{
+    padding: 25px;
+    padding-left: 15px;
+    display: block;
+    border-radius: 5px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #C3CCE8;
+}
+
+.form input[type=text]:focus{
+    outline: 0;
+}
+.form input[type=email]:focus{
+    outline: 0;
+}
+
+.form textarea{
+    margin: 10px auto;
+    padding: 10px;
+    resize:none;
+    display: block;
+    border-radius: 5px;
+    margin: 10px auto;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #C3CCE8;
+}
+
+.form textarea:focus{
+    outline: 0;
+}
+
+.form input[type=submit]{
+    padding-left: 10px;
+    display: block;
+    border-radius: 5px;
+    border-color: #255AFF;
+    margin: 10px auto;
+    margin-top: 25px;
+    font-size: 20px;
+    max-width: 500px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    background: #255AFF;
+}
+.form input[type=submit]:hover{
+    background-color: #3c549b;
+    border-color: #3c549b;
+}
+
+footer{
+    margin-top: 120px;
+    background: #255AFF;
+    padding: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    section.main{
+        min-height: 1200px;
+    }
+    .lista-beneficios,.img-beneficios{
+        width:100%;
+        margin-bottom: 30px;
+    }
+    .diferenciais{
+        
+        flex-wrap: wrap;
+       
+    }
+    .box-diferenciais{
+        
+        width:100%;
+        margin-right: 0;
+        
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itens-menu{
+        margin-top: 30px;
+    }
+
+    .itens-menu ul{
+        flex-direction:column;
+    }
+
+    .itens-menu li{
+        margin-top: 20px;
+    }
+   
+    section.marcas > .center{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.marcas img{
+        max-width: 300px;
+        width:100%;
+    }
+}
