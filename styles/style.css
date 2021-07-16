@@ -367,15 +367,40 @@ li.slick-active button{
 }
 
 footer{
-    margin-top: 120px;
     background: #255AFF;
-    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+}
+
+footer li{
+    margin-right: 30px;
 }
 
 footer a{
     text-decoration: none;
     color: white;
-    text-align: left;
+    font-weight: bold;
+}
+
+footer nav a:hover{
+    border-bottom:3px solid #FFDD33;
+}
+
+
+.contact-btn-footer{
+    padding: 10px 20px;
+    background-color: #25ffb62f;
+    border-radius: 15px;
+}
+footer .contact-btn-footer:hover{
+    border-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -425,4 +450,5 @@ footer a{
         max-width: 300px;
         width:100%;
     }
+
 }
