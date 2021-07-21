@@ -1,7 +1,7 @@
 # Projeto Site Final Design Responsivo
 **Projeto de estudo**
 
-![GIF do site](images/sitegif.gif)
+![GIF do site](public/assets/images/sitegif.gif)
 
 ## update-1
 inserindo *background* e itens do menu
