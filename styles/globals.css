@@ -14,4 +14,15 @@ a {
   letter-spacing: 2px;
   opacity: 0.7; }
 
+footer {
+  background-color: #662baa;
+  padding: 20px;
+  text-align: center; }
+  footer h1 {
+    font-size: 1.5em; }
+  footer a {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: 600; }
+
 /*# sourceMappingURL=globals.css.map */
