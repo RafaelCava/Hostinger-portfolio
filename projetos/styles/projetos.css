@@ -29,7 +29,8 @@ main {
   main .container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items:center; }
     main .container .box {
       border-radius: 20px;
       width: 30%;
@@ -40,8 +41,12 @@ main {
       main .container .box img {
         border-radius: 20px;
         width: 100%;
-        max-width: 200px; }
+        max-width: 300px;
+        margin-bottom: 20px; }
       main .container .box a {
         color: #000; }
+      main .container .box p {
+        margin-top: 20px;
+        line-height: 25px; }
 
 /*# sourceMappingURL=projetos.css.map */
