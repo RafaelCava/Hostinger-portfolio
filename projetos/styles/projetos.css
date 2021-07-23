@@ -30,7 +30,7 @@ main {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items:center; }
+    align-items: center; }
     main .container .box {
       border-radius: 20px;
       width: 30%;
@@ -48,5 +48,27 @@ main {
       main .container .box p {
         margin-top: 20px;
         line-height: 25px; }
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    header h1 {
+      margin: 0 auto 10px; }
+    header ul {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      header ul li {
+        margin-right: 0;
+        margin-bottom: 10px; }
+
+  main .container .box {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=projetos.css.map */
