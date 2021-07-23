@@ -41,5 +41,7 @@ main {
         border-radius: 20px;
         width: 100%;
         max-width: 200px; }
+      main .container .box a {
+        color: #000; }
 
 /*# sourceMappingURL=projetos.css.map */
