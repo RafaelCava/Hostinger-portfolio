@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACR,OAAO,EAAE,IAAI;EAEX,SAAI,EAAE,QAAQ;EAChB,eAAe,EAAE,aAAa",
+"sources": ["projetos.sass"],
+"names": [],
+"file": "projetos.css"
+}
