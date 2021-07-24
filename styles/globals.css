@@ -7,6 +7,9 @@
 a {
   text-decoration: none; }
 
+ul {
+  list-style-type: none; }
+
 .text-describe {
   text-align: center;
   text-transform: uppercase;

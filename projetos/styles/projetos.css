@@ -41,6 +41,8 @@ main {
       margin-right: 1%;
       margin-bottom: 3%;
       text-align: center; }
+      main .container .box ul li {
+        margin: 5% 0; }
       main .container .box img {
         border-radius: 20px;
         width: 100%;
